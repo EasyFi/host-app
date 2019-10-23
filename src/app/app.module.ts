@@ -25,12 +25,13 @@ import { TodoListComponent } from './home/todoList/todoList.component';
 import { AnalyticsComponent } from './home/analytics/analytics.component';
 
 // devices
-
+import { DEvicessComponent } from './devices/devices.component' ;
 // recharges
 import { RechargesComponent } from './recharges/recharges.component' ;
 import { RechargeComponent } from './recharges/recharge/recharge.component' ;
 import { RechargesCalendarComponent } from './recharges/rechargesCalendar/rechargesCalendar.component' ;
 import { PackageComponent } from './recharges/package/package.component' ;
+
 // accounts 
 import { AccountsComponent } from './accounts/accounts.component' ;
 import { LedgerComponent } from './accounts/ledger/ledger.component' ;
