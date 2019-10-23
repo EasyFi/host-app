@@ -27,7 +27,10 @@ import { AnalyticsComponent } from './home/analytics/analytics.component';
 // devices
 
 // recharges
-
+import { RechargesComponent } from './recharges/recharges.component' ;
+import { RechargeComponent } from './recharges/recharge/recharge.component' ;
+import { RechargesCalendarComponent } from './recharges/rechargesCalendar/rechargesCalendar.component' ;
+import { PackageComponent } from './recharges/package/package.component' ;
 // accounts 
 
 
@@ -41,6 +44,10 @@ import { AnalyticsComponent } from './home/analytics/analytics.component';
                 , AnalyticsComponent
                 , FaultsComponent
                 , TodoListComponent
+                , RechargesComponent
+                , RechargeComponent
+                , RechargesCalendarComponent
+                , PackageComponent
                 ],
   bootstrap:    [ AppComponent ]
 })
