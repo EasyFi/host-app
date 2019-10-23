@@ -1,0 +1,61 @@
+/* Add application styles & imports to this file! */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+body{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:ivory;
+  
+}
+.spacer{
+  height:30px;
+}
+.container{
+  width:95vw;
+  height:95vh;
+  margin:auto;
+  background-image: url("http://139.59.73.236/t1.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-width: 1024px;
+  min-height: 500px;
+}
+
+.loginContainer{
+  width:40vw;
+  height:95vh;
+  background-color:#df4153;
+  min-width: 420px;
+  opacity: 0.9;
+  filter: alpha(opacity=90); 
+  color:white;
+  /* unvisited link */
+
+}
+.loginContainer a:link{
+   color: yellow;
+   text-decoration: none;
+}
+
+
+.loginContainer a:visited {
+  color: yellow;
+   text-decoration: none;
+   font-style: italic;
+}
+
+
+.loginContainer a:hover {
+   color: yellow;
+    text-decoration: none;
+}
+
+
+.loginContainer a:active {
+    color: yellow;
+    text-decoration: none;
+}
+
