@@ -18,11 +18,30 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { LoginComponent } from './login/login.component';
 
+// home 
+import { HomeComponent } from './home/home.component';
+import { FaultsComponent } from './home/faults/faults.component';
+import { TodoListComponent } from './home/todoList/todoList.component';
+import { AnalyticsComponent } from './home/analytics/analytics.component';
+
+// devices
+
+// recharges
+
+// accounts 
+
 
 @NgModule({
 
   imports:      [ BrowserModule, FormsModule, MaterialModule ],
-  declarations: [ AppComponent, HelloComponent, LoginComponent ],
+  declarations: [ AppComponent
+                , HelloComponent
+                , LoginComponent 
+                , HomeComponent
+                , AnalyticsComponent
+                , FaultsComponent
+                , TodoListComponent
+                ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
