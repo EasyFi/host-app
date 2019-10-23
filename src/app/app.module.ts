@@ -32,6 +32,11 @@ import { RechargeComponent } from './recharges/recharge/recharge.component' ;
 import { RechargesCalendarComponent } from './recharges/rechargesCalendar/rechargesCalendar.component' ;
 import { PackageComponent } from './recharges/package/package.component' ;
 // accounts 
+import { AccountsComponent } from './accounts/accounts.component' ;
+import { LedgerComponent } from './accounts/ledger/ledger.component' ;
+import { TopupComponent } from './accounts/topup/topup.component' ;
+'./accounts/ledger/ledger.component' ;
+import { TopupDenominationsComponent } from './accounts/topupDenominations/topupDenominations.component' ;
 
 
 @NgModule({
@@ -48,6 +53,10 @@ import { PackageComponent } from './recharges/package/package.component' ;
                 , RechargeComponent
                 , RechargesCalendarComponent
                 , PackageComponent
+                , AccountsComponent
+                , LedgerComponent
+                , TopupComponent
+                , TopupDenominationsComponent
                 ],
   bootstrap:    [ AppComponent ]
 })
