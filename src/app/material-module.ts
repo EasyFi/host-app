@@ -73,7 +73,7 @@ import {MatIconRegistry} from '@angular/material/icon';
     MatProgressBarModule,
     MatProgressSpinnerModule,
     MatRadioModule,
-    MatIconRegistry,
+   
     MatRippleModule,
     MatSelectModule,
     MatSidenavModule,
