@@ -25,7 +25,17 @@ import { TodoListComponent } from './home/todoList/todoList.component';
 import { AnalyticsComponent } from './home/analytics/analytics.component';
 
 // devices
-import { DEvicessComponent } from './devices/devices.component' ;
+import { DevicesComponent } from './devices/devices.component' ;
+import { DeviceComponent } from './devices/device/device.component' ;
+import { DeviceCommissionComponent } from './devices/deviceCommission/deviceCommission.component' ;
+import { DeviceMonitorComponent } from './devices/deviceMonitor/deviceMonitor.component' ;
+import { NewDeviceComponent } from './devices/newDevice/newDevice.component' ;
+import { TransferDeviceComponent } from './devices/transferDevice/transferDevice.component' ;
+
+
+
+
+
 // recharges
 import { RechargesComponent } from './recharges/recharges.component' ;
 import { RechargeComponent } from './recharges/recharge/recharge.component' ;
@@ -58,6 +68,12 @@ import { TopupDenominationsComponent } from './accounts/topupDenominations/topup
                 , LedgerComponent
                 , TopupComponent
                 , TopupDenominationsComponent
+                , DevicesComponent
+                , DeviceComponent
+                , DeviceCommissionComponent
+                , DeviceMonitorComponent
+                , NewDeviceComponent
+                , TransferDeviceComponent
                 ],
   bootstrap:    [ AppComponent ]
 })
