@@ -52,7 +52,7 @@ import { TopupDenominationsComponent } from './accounts/topupDenominations/topup
 
 @NgModule({
 
-  imports:      [ BrowserModule, FormsModule, MaterialModule ],
+  imports:      [ BrowserModule, FormsModule, MaterialModule, HttpClientModule, BrowserAnimationsModule ],
   declarations: [ AppComponent
                 , HelloComponent
                 , LoginComponent 
